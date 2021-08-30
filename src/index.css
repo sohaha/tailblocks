@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap'); */
+@import url('https://fonts.flourd.com/api/MonoLisa.css');
 
 :root {
   --base-500: #A0AEC0;
@@ -459,7 +460,7 @@ svg { width: 100%; }
   width: 13px;
 }
 
-.knyttneve {
+.nberlette {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -473,7 +474,7 @@ svg { width: 100%; }
   font-weight: 500;
 }
 
-.knyttneve span {
+.nberlette span {
   position: absolute;
   top: 0;
   left: 0;
@@ -490,7 +491,7 @@ svg { width: 100%; }
   transform: translateY(-100%);
 }
 
-.knyttneve:hover .id {
+.nberlette:hover .id {
   transform: none;
 }
 
@@ -500,7 +501,7 @@ svg { width: 100%; }
   height: 14px;
 }
 
-.knyttneve:hover .follow {
+.nberlette:hover .follow {
   transform: translateY(100%);
 }
 
@@ -540,8 +541,8 @@ svg { width: 100%; }
 }
 
 pre, code {
-  font-family:'Space Mono', monospace;
-  font-variant-ligatures: no-contextual;
+  font-family: 'Operator Mono Lig', 'Operator Mono', 'JetBrains Mono', 'Source Code Pro', 'Roboto Mono', monospace;
+  font-variant-ligatures: contextual, alternate;
 }
 
 .view.show-code iframe {
