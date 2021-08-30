@@ -541,7 +541,7 @@ svg { width: 100%; }
 }
 
 pre, code {
-  font-family: 'Operator Mono Lig', 'Operator Mono', 'JetBrains Mono', 'Source Code Pro', 'Roboto Mono', monospace;
+  font-family: 'MonoLisa', 'Operator Mono Lig', 'Operator Mono', 'JetBrains Mono', 'Source Code Pro', 'Roboto Mono', monospace;
   font-variant-ligatures: contextual, alternate;
 }
 
