@@ -103,7 +103,6 @@ class App extends Component {
 
   handleKeyUp(e) {
     const keyCode = e.which || e.keyCode;
-    const keyName = e.key;
     const validKeyCodes = [8, 9, 13, 17, 67, 88, 91, 93, 32, 37, 38, 39, 40, 188];
     // debounce
     setTimeout(
