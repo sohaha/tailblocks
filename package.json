@@ -21,11 +21,12 @@
     "react-syntax-highlighter": "^12.2.1"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "yarn build && touch build/.nojekyll",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
