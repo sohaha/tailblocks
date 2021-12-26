@@ -1,0 +1,31 @@
+image: nberlette/gitpod-enhanced
+
+tasks:
+  - before: yarn install
+    command: yarn dev
+
+ports:
+  - port: "3000-3333"
+    onOpen: notify
+    
+github:
+  prebuilds:
+    branches: true
+    addLabel: true
+    addCheck: true
+    addBadge: true
+    
+gitConfig:
+  bash.showupstream: "auto"
+  bash.showuntrackedfiles: "false"
+  bash.showdirtystate: "true"
+  bash.omitsparsestate: "true"
+  bash.showcolorhints: "true"
+  
+vscode:
+  extensions:
+    - eamodio.gitlens
+    - esbenp.prettier-vscode
+    - dbaeumer.vscode-eslint
+    - christian-kohler.npm-intellisense
+    - eg2.vscode-npm-script
