@@ -7,7 +7,7 @@
   "repository": "nberlette/tailblocks",
   "readme": "https://github.com/nberlette/tailblocks#readme",
   "bugs": "https://github.com/nberlette/tailblocks/issues",
-  "homepage": "https://n.berlette.com/tailblocks",
+  "homepage": "https://tw.berlette.com",
   "dependencies": {
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "12.1.2",
