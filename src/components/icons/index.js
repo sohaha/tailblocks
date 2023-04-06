@@ -5,6 +5,7 @@ import BlogB from './blog/b';
 import BlogC from './blog/c';
 import BlogD from './blog/d';
 import BlogE from './blog/e';
+import BlogN1 from './blog/n1';
 
 import ContactA from './contact/a';
 import ContactB from './contact/b';
@@ -90,7 +91,8 @@ export default function getIcons() {
       BlogB: <BlogB />,
       BlogC: <BlogC />,
       BlogD: <BlogD />,
-      BlogE: <BlogE />
+      BlogE: <BlogE />,
+      BlogN1: <BlogN1 />
     },
     Contact: {
       ContactA: <ContactA />,

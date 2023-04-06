@@ -5,12 +5,14 @@ import LightBlogB from './blog/light/b';
 import LightBlogC from './blog/light/c';
 import LightBlogD from './blog/light/d';
 import LightBlogE from './blog/light/e';
+import LightBlogN1 from './blog/light/n1';
 
 import DarkBlogA from './blog/dark/a';
 import DarkBlogB from './blog/dark/b';
 import DarkBlogC from './blog/dark/c';
 import DarkBlogD from './blog/dark/d';
 import DarkBlogE from './blog/dark/e';
+import DarkBlogN1 from './blog/dark/n1';
 
 import LightContactA from './contact/light/a';
 import LightContactB from './contact/light/b';
@@ -164,7 +166,8 @@ export default function getBlock({theme = 'indigo', darkMode = false}) {
       BlogB: darkMode ? <DarkBlogB theme={theme} /> : <LightBlogB theme={theme} />,
       BlogC: darkMode ? <DarkBlogC theme={theme} /> : <LightBlogC theme={theme} />,
       BlogD: darkMode ? <DarkBlogD theme={theme} /> : <LightBlogD theme={theme} />,
-      BlogE: darkMode ? <DarkBlogE theme={theme} /> : <LightBlogE theme={theme} />
+      BlogE: darkMode ? <DarkBlogE theme={theme} /> : <LightBlogE theme={theme} />,
+      BlogN1: darkMode ? <DarkBlogN1 theme={theme} /> : <LightBlogN1 theme={theme} />,
     },
     Contact: {
       ContactA: darkMode ? <DarkContactA theme={theme} /> : <LightContactA theme={theme} />,
